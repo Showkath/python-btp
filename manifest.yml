@@ -3,7 +3,8 @@ applications:
 - name: showkath-python-app
   random-route: true
   path: ./
-  memory: 128M
+  memory: 128MB
+  random-route: true
   buildpacks: 
   - python_buildpack
   command: python server.py
